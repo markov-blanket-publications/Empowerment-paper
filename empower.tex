@@ -61,7 +61,7 @@
 \maketitle
 
 \begin{abstract}
-   The main contribution of this paper is to show that within the context of reinforcement learning, the Causal Path Entropy and Empowerment, are equivalent only in deterministic environments. In non-deterministic environments, it is shown that the Causal Path Entropy generally under-estimates the number of intrinsic options available to an agent unlike Empowerment. In fact, it is shown the difference between Causal Path Entropy and Empowerment can't be increased without diminishing Empowerment. 
+   The main contribution of this paper is to show that within the context of adaptive agents, the Causal Path Entropy and Empowerment, are equivalent only in deterministic environments. In non-deterministic environments, it is shown that the Causal Path Entropy generally under-estimates the number of intrinsic options available to an agent unlike Empowerment. In fact, it is shown the difference between Causal Path Entropy and Empowerment can't be increased without diminishing Empowerment. 
 \end{abstract}
 
 \section{Causal Path Entropy for adaptive agents}
@@ -185,7 +185,7 @@ which is true if and only if $p(x_n|a_{1:n},x_0) = 1 \oplus 0$ (where $\oplus$ d
 S_c(x_0) = \xi(x_0)  = \ln N_{x_0}
 \end{equation}
 
-where $N_{x_0}$ represents the number of intrinsic options $a_{1:n} \in \mathcal{A}^n$ available at $x_0$. 
+where $N_{x_0} \geq 1$ represents the number of intrinsic options $a_{1:n} \in \mathcal{A}^n$ available at $x_0$. 
 
 \section{Discussion}
 
