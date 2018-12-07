@@ -136,7 +136,7 @@ S_c(x_0) = \max\limits_{w} \mathbb{E} \big[ \ln \big( \frac{p(a_{1:n}|x_n,x_0)}{
 Hence, we have:
 
 \begin{equation}
-S_c(x_0) = \max\limits_{w} \mathbb{E} \big[H(a_{1:n}|x_0)-H(a_{1:n}|x_n,x_0) +H(x_n|a_{1:n},x_0)\big]
+S_c(x_0) = \max\limits_{w} \big[H(a_{1:n}|x_0)-H(a_{1:n}|x_n,x_0) +H(x_n|a_{1:n},x_0)\big]
 \end{equation}
 
 $(9)$ shall be useful in analysing the difference between the Causal Path Entropy and Empowerment, which we shall now introduce.  
@@ -156,7 +156,7 @@ We shall introduce the n-step empowerment as was done in [3].
 2. Hence, $(10)$ may be expressed as the difference of two conditional Shannon entropies:
 
 \begin{equation}
-\xi(x_0) = \max\limits_{w}  \mathbb{E}  \big[H(a_{1:n}|x_0)-H(a_{1:n}|x_n,x_0) \big]
+\xi(x_0) = \max\limits_{w} \big[H(a_{1:n}|x_0)-H(a_{1:n}|x_n,x_0) \big]
 \end{equation}
 
 where we used the fact that $p(a_{1:n}|x_n,x_0)=\frac{p(a_{1:n},x_n|x_0)}{p(x_n|x_0)}$.
@@ -168,7 +168,7 @@ where we used the fact that $p(a_{1:n}|x_n,x_0)=\frac{p(a_{1:n},x_n|x_0)}{p(x_n|
 1. If we combine $(9)$ and $(11)$ we find that the Causal Path Entropy at $x_0$ may be expressed in terms of the Empowerment at $x_0$:
 
 \begin{equation}
-S_c(x_0) = \xi(x_0)  + \max\limits_{w} \mathbb{E} \big[H(x_n|a_{1:n},x_0)\big]
+S_c(x_0) = \xi(x_0)  + \max\limits_{w} \big[H(x_n|a_{1:n},x_0)\big]
 \end{equation}
 
 2. Therefore, in order to have equivalence we must have:
@@ -199,7 +199,7 @@ Whenever $S_c(x_0) \neq \xi(x_0)$ we must have $H(x_n|a_{1:n},x_0) > 0$ so the C
 Moreover, maximisation of $H(x_n|a_{1:n},x_0)$ corresponds to making actions maximally uninformative about the terminal state $x_n$. It follows that the Causal Path Entropy does less than accurately measure its number of intrinsic options. This is especially clear if we use $(4)$ and $(12)$ to re-formulate the Empowerment of the agent at $x(0)$:
 
 \begin{equation}
-\xi(x_0) = S_c(x_0)  + \max\limits_{w} \mathbb{E} \big[H(x_n|a_{1:n},x_0)\big] =  \max\limits_{w} \mathbb{E} \big[H(x_n|x_0) -H(x_n|a_{1:n},x_0)\big]
+\xi(x_0) = S_c(x_0)  + \max\limits_{w} \big[H(x_n|a_{1:n},x_0)\big] =  \max\limits_{w} \big[H(x_n|x_0) -H(x_n|a_{1:n},x_0)\big]
 \end{equation}
 
 From $(15)$ we deduce that in non-deterministic environments the difference between Causal Path Entropy and Empowerment, i.e. $H(x_n|a_{1:n},x_0)$, can't be increased without diminishing Empowerment. 
