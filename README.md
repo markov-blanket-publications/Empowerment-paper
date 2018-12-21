@@ -13,5 +13,5 @@ and Empowerment.
 
 
 ## Commenting:
-1. Please feel free to share your thoughts or comments. 
+1. Feedback is welcome. 
 2. Just open an issue and share your thoughts. 
