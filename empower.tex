@@ -145,9 +145,7 @@ $(9)$ shall be useful in analysing the difference between the Causal Path Entrop
 
 \section{Empowerment}
 
-We shall introduce the n-step empowerment as was done in [3]. 
-
-1. The n-step empowerment is defined by searching for the maximal mutual information $I(\cdot,\cdot)$ conditional on a starting state $x_0$ between a sequence of $n \in \mathbb{N}$ actions $a_{1:n}$ and the final state reached $x_n$:
+We shall introduce the n-step empowerment as was done in [3] where the n-step empowerment is defined by searching for the maximal mutual information $I(\cdot,\cdot)$ conditional on a starting state $x_0$ between a sequence of $n \in \mathbb{N}$ actions $a_{1:n}$ and the final state reached $x_n$:
 
 \begin{equation}
 \xi(x_0) = \max\limits_{w} I(a_{1:n},x_n|x_0)=\max\limits_{w} \mathbb{E}  \big[ \ln \big( \frac{p(a_{1:n},x_n|x_0)}{w(a_{1:n}|x_0)p(x_n|x_0)}\big)\big]
