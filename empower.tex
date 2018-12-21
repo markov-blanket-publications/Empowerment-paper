@@ -61,7 +61,7 @@
 \maketitle
 
 \begin{abstract}
-   The main contribution of this paper is to show that within the context of adaptive agents, the Causal Path Entropy and Empowerment, are equivalent only in deterministic environments. In non-deterministic environments, it is shown that the Causal Path Entropy generally under-estimates the number of intrinsic options available to an agent unlike Empowerment. In fact, it is shown the difference between Causal Path Entropy and Empowerment can't be increased without diminishing Empowerment. 
+   The main contribution of this paper is to show that within the context of adaptive agents, the Causal Path Entropy and Empowerment, are equivalent only in deterministic environments. In non-deterministic environments, it is shown that the Causal Path Entropy generally under-estimates the number of intrinsic options available to an agent unlike Empowerment. In fact, it is shown that the difference between Causal Path Entropy and Empowerment can't be increased without diminishing Empowerment. 
 \end{abstract}
 
 \section{Causal Path Entropy for adaptive agents}
@@ -94,7 +94,7 @@ where $p(x(t)|x(0))$ denotes a subjective state-transition probability distribut
 
 \newpage
 
-4. If the organism is digital, i.e. simulated by a Turing machine, we may drop the Boltzmann constant and a discrete phase-space implies that $S_c(x(0))$ simplifies to the conditional Shannon entropy:
+4. If the organism is digital, i.e. simulated by a Turing machine, we may drop the Boltzmann constant and a discrete phase-space implies that $S_c(x(0))$ simplifies to the Shannon path entropy:
 
 
 \begin{equation}
@@ -196,13 +196,15 @@ Whenever $S_c(x_0) \neq \xi(x_0)$ we must have $H(x_n|a_{1:n},x_0) > 0$ so the C
 3. Unreliable actuators. \\
 4. Unreliable sensors. \\
 
-Moreover, maximisation of $H(x_n|a_{1:n},x_0)$ corresponds to making actions maximally uninformative about the terminal state $x_n$. It follows that the Causal Path Entropy does less than accurately measure its number of intrinsic options. This is especially clear if we use $(4)$ and $(12)$ to re-formulate the Empowerment of the agent at $x(0)$:
+Moreover, maximisation of $H(x_n|a_{1:n},x_0)$ corresponds to making actions maximally uninformative about the terminal state $x_n$. It follows that the Causal Path Entropy does less than accurately measure an agent's number of intrinsic options. This is especially clear if we use $(4)$ and $(12)$ to re-formulate the Empowerment of the agent at $x(0)$:
 
 \begin{equation}
 \xi(x_0) = S_c(x_0)  + \max\limits_{w} \big[H(x_n|a_{1:n},x_0)\big] =  \max\limits_{w} \big[H(x_n|x_0) -H(x_n|a_{1:n},x_0)\big]
 \end{equation}
 
 From $(15)$ we deduce that in non-deterministic environments the difference between Causal Path Entropy and Empowerment, i.e. $H(x_n|a_{1:n},x_0)$, can't be increased without diminishing Empowerment. 
+
+\textbf{Acknowledgements}: I'd like to thank Nicholas Guttenberg for invaluable discussions and feedback.
 
 \section*{References}
 
