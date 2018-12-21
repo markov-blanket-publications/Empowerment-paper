@@ -5,9 +5,8 @@ The main contribution of this paper is to show that two intrinsic reward functio
 
 One motivation for writing this paper is that addresses a question embedded in the following tweet by Shakir Mohamed, a research scientist at DeepMind:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/robertsdionne?ref_src=twsrc%5Etfw">@robertsdionne</a> <a href="https://twitter.com/hugo_larochelle?ref_src=twsrc%5Etfw">@hugo_larochelle</a> Empowerment and causal entropic forces are related -not yet sure how. Transfer Entropy might be useful too.</p>&mdash; Shakir Mohamed (@shakir_za) <a href="https://twitter.com/shakir_za/status/654929305567428608?ref_src=twsrc%5Etfw">October 16, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Commenting:
 1. Please feel free to share your thoughts or comments. 
