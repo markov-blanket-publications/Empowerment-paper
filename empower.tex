@@ -3,13 +3,6 @@
 % ready for submission
 \usepackage{arxiv}
 
-% to compile a preprint version, e.g., for submission to arXiv, add add the
-% [preprint] option:
-%     \usepackage[preprint]{neurips_2018}
-
-% to compile a camera-ready version, add the [final] option, e.g.:
-%     \usepackage[final]{neurips_2018}
-
 \usepackage[utf8]{inputenc} % allow utf-8 input
 \usepackage[T1]{fontenc}    % use 8-bit T1 fonts
 \usepackage{hyperref}       % hyperlinks
@@ -20,6 +13,8 @@
 \usepackage{microtype}      % microtypography
 
 \title{On the equivalence of Causal Path Entropy and Empowerment}
+
+\date{February 14, 2019}
 
 % The \author macro works with any number of authors. There are two commands
 % used to separate the names and addresses of multiple authors: \And and \AND.
@@ -56,7 +51,6 @@
 }
 
 \begin{document}
-% \nipsfinalcopy is no longer used
 
 \maketitle
 
@@ -197,7 +191,7 @@ Whenever $S_c(x_0) \neq \xi(x_0)$ we must have $H(x_n|a_{1:n},x_0) > 0$ so the C
 Moreover, maximisation of $H(x_n|a_{1:n},x_0)$ corresponds to making actions maximally uninformative about the terminal state $x_n$. It follows that the Causal Path Entropy does less than accurately measure an agent's number of intrinsic options. This is especially clear if we use $(4)$ and $(12)$ to re-formulate the Empowerment of the agent at $x(0)$:
 
 \begin{equation}
-\xi(x_0) = S_c(x_0)  + \max\limits_{w} \big[H(x_n|a_{1:n},x_0)\big] =  \max\limits_{w} \big[H(x_n|x_0) -H(x_n|a_{1:n},x_0)\big]
+\xi(x_0) = S_c(x_0)  - \max\limits_{w} \big[H(x_n|a_{1:n},x_0)\big] =  \max\limits_{w} \big[H(x_n|x_0) -H(x_n|a_{1:n},x_0)\big]
 \end{equation}
 
 From $(15)$ we deduce that in non-deterministic environments the difference between Causal Path Entropy and Empowerment, i.e. $H(x_n|a_{1:n},x_0)$, can't be increased without diminishing Empowerment. 
